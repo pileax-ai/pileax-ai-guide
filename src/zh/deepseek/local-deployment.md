@@ -32,6 +32,9 @@ Available Commands:
 
 ## DeepSeek R1
 [DeepSeek R1 模型](https://ollama.com/library/deepseek-r1) 包含7个不同参数级别的模型，其中6个是蒸馏模型。
+
+![deepseek-r1.png](https://share.pileax.ai/assets/deepseek-r1.DNHSbr6W.png)
+
 ::: tip
 这里根据个人电脑配置，选择 ```14b``` 的模型，预计需要9G存储空间。
 :::

@@ -36,6 +36,9 @@ Available Commands:
 ## DeepSeek R1
 
 The [DeepSeek R1 model](https://ollama.com/library/deepseek-r1) includes seven variants with different parameter sizes, six of which are distilled models. 
+
+![deepseek-r1.png](https://share.pileax.ai/assets/deepseek-r1.DNHSbr6W.png)
+
 ::: tip
 For personal computers, we recommend the `14b` variant, which requires approximately **9GB** of storage.
 :::
