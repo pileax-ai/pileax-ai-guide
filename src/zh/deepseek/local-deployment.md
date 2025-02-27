@@ -1,6 +1,8 @@
 # 本地部署 DeepSeek R1
 
-> 通过 Ollama 在本地安装运行 DeepSeek R1 模型。
+::: info
+通过 Ollama 在本地安装运行 DeepSeek R1 模型。
+:::
 
 ## Ollama
 [Ollama](https://github.com/ollama/ollama) 是一个开源项目，专注于在本地运行、管理和配置大型语言模型。 在 [Ollama Github](https://github.com/ollama/ollama/releases) 下载，得到 Ollama-darwin.zip ，解压后即可双击运行安装，安装完成后就可以使用命令行工具```ollma```。
@@ -29,7 +31,10 @@ Available Commands:
 ```
 
 ## DeepSeek R1
-[DeepSeek R1 模型](https://ollama.com/library/deepseek-r1) 包含7个不同参数级别的模型，其中6个是蒸馏模型。这里根据个人电脑配置，选择 ```14b``` 的模型，预计需要9G存储空间。
+[DeepSeek R1 模型](https://ollama.com/library/deepseek-r1) 包含7个不同参数级别的模型，其中6个是蒸馏模型。
+::: tip
+这里根据个人电脑配置，选择 ```14b``` 的模型，预计需要9G存储空间。
+:::
 
 ### 运行模型
 ```bash

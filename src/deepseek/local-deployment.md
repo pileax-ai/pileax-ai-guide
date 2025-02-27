@@ -1,6 +1,8 @@
 # Local Deployment of DeepSeek R1
 
-> Run the DeepSeek R1 model locally via Ollama.
+::: info
+Run the DeepSeek R1 model locally via Ollama.
+:::
 
 
 ## Ollama
@@ -33,7 +35,10 @@ Available Commands:
 
 ## DeepSeek R1
 
-The [DeepSeek R1 model](https://ollama.com/library/deepseek-r1) includes seven variants with different parameter sizes, six of which are distilled models. For personal computers, we recommend the `14b` variant, which requires approximately **9GB** of storage.
+The [DeepSeek R1 model](https://ollama.com/library/deepseek-r1) includes seven variants with different parameter sizes, six of which are distilled models. 
+::: tip
+For personal computers, we recommend the `14b` variant, which requires approximately **9GB** of storage.
+:::
 
 ### Running the Model
 
