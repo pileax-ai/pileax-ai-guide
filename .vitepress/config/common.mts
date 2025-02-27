@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { keywords, name, repo } from '../meta'
+import { description, keywords, name, repo } from '../meta'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -31,5 +31,6 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'keywords', content: keywords }],
+    ['meta', { name: 'description', content: description }],
   ],
 })
