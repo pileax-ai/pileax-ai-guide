@@ -15,7 +15,7 @@ hero:
       link: /guide/introduction
     - theme: alt
       text: 预览
-      link: https://vitepress-i18n-template.netlify.app
+      link: https://guide.pileax.ai
 
 features:
   - icon: 💡

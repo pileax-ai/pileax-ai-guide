@@ -1,8 +1,8 @@
 {
-  "name": "vitepress-i18n-template",
+  "name": "pileax-ai-guide",
   "version": "1.0.0",
-  "description": "A VitePress template with i18n support by default.",
-  "repository": "pileax/vitepress-i18n-template",
+  "description": "AI guide for everyone",
+  "repository": "pileax/pileax-ai-guide",
   "keywords": [
     "vitepress",
     "i18n",

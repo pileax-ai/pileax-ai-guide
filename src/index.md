@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Pileax English"
+  name: "Pileax AI Guide"
   text: "A VitePress Site"
-  tagline: VitePress i18n template
+  tagline: AI Guide for Everyone
   image:
     src: /logo-with-shadow.png
     alt: PileaX
@@ -15,7 +15,7 @@ hero:
       link: /guide/introduction
     - theme: alt
       text: Preview
-      link: https://vitepress-i18n-template.netlify.app
+      link: https://guide.pileax.ai
 
 features:
   - icon: 💡
