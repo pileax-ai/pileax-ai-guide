@@ -1,6 +1,6 @@
 ## Introduction
 
-vitepress-i18n-template is a VitePress template with i18n support by default. [Preview](https://vitepress-i18n-template.netlify.app)
+AI guide for everyone. [Preview](https://guide.pileax.ai)
 
 ### Features
 - I18n messages
@@ -35,8 +35,6 @@ pnpm docs:preview
 ```markdown
 ├── src
 │   ├── index.md
-│   ├── fr
-│   │   └── index.md
 │   └── zh
 │       └── index.md
 ```
@@ -46,21 +44,17 @@ pnpm docs:preview
 ├── config
 │   ├── common.mts
 │   ├── en.mts
-│   ├── fr.mts
 │   ├── index.mts
 │   └── zh.mts
 ├── i18n
 │   ├── en.json
-│   ├── fr.json
 │   ├── index.ts
 │   └── zh.json
 ```
 
-
-
 ## License
 
-[MIT](https://github.com/pileax/vitepress-i18n-template/blob/master/LICENSE.md)
+[MIT](https://github.com/pileax/pileax-ai-guide/blob/master/LICENSE)
 
 
 
