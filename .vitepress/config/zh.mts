@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { nav } from './theme/nav'
-import { sidebarGuide, sidebarComponent } from './theme/sidebar'
+import {sidebarGuide, sidebarComponent, sidebarDeepSeek} from './theme/sidebar'
 import { labels } from './theme/labels'
 import { name, repo, descriptionZh } from '../meta'
 
@@ -15,6 +15,7 @@ export default defineConfig({
     sidebar: {
       '/zh/guide/': { base: '/zh/guide/', items: sidebarGuide(locale) },
       '/zh/component/': { base: '/zh/component/', items: sidebarComponent(locale) },
+      '/zh/deepseek/': { base: '/zh/deepseek/', items: sidebarDeepSeek(locale) },
     },
     editLink: {
       pattern: `${repo}/edit/main/src/:path`,

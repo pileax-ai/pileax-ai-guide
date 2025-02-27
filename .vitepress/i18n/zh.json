@@ -8,6 +8,8 @@
   "sidebar.component.introduction": "简介",
   "sidebar.component.route": "路由",
   "sidebar.component.style": "样式",
+  "sidebar.ds.introduction": "简介",
+  "sidebar.ds.localDeployment": "本地部署",
   "sidebar.config": "配置",
   "sidebar.extraTopics": "其它",
   "sidebar.guide": "指南",

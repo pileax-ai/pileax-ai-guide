@@ -23,6 +23,7 @@ export function sidebarGuide(locale :string) {
     },
   ]
 }
+
 export function sidebarComponent(locale :string) {
   const t = (key :string) => {
     return tr(locale, `sidebar.component.${key}`);
@@ -35,6 +36,22 @@ export function sidebarComponent(locale :string) {
         { text: t('introduction'), link: 'introduction' },
         { text: t('route'), link: 'route' },
         { text: t('style'), link: 'style' },
+      ]
+    },
+  ]
+}
+
+export function sidebarDeepSeek(locale :string) {
+  const t = (key :string) => {
+    return tr(locale, `sidebar.ds.${key}`);
+  }
+  return [
+    {
+      text: 'DeepSeek',
+      collapsed: false,
+      items: [
+        { text: t('introduction'), link: 'introduction' },
+        { text: t('localDeployment'), link: 'local-deployment' },
       ]
     },
   ]

@@ -8,6 +8,8 @@
   "sidebar.component.introduction": "Introduction",
   "sidebar.component.route": "Route",
   "sidebar.component.style": "Style",
+  "sidebar.ds.introduction": "Introduction",
+  "sidebar.ds.localDeployment": "Local deployment",
   "sidebar.config": "Config",
   "sidebar.extraTopics": "Extra Topics",
   "sidebar.guide": "Guide",
